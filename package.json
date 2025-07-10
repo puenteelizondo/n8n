@@ -2,7 +2,7 @@
   "name": "n8n-light",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx n8n"
+    "start": "n8n"
   },
   "dependencies": {
     "n8n": "^1.45.0"
