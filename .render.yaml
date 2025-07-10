@@ -12,13 +12,13 @@ services:
         value: admin
       - key: N8N_BASIC_AUTH_PASSWORD
         value: seguro123
-      - key: N8N_HOST
-        value: 0.0.0.0
-      - key: N8N_PORT
-        value: 10000
       - key: N8N_LOG_LEVEL
         value: info
       - key: N8N_LOG_OUTPUT
         value: console
       - key: N8N_DIAGNOSTICS_ENABLED
         value: false
+      - key: N8N_HOST
+        value: 0.0.0.0
+      - key: N8N_PORT
+        value: 10000
