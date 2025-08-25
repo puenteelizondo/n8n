@@ -1,0 +1,15 @@
+{
+  email bobysforge@gmail.com
+}
+
+158.69.212.191.sslip.io, 2607-5300-205-200--8f8d.sslip.io {
+  encode gzip
+
+  header {
+    X-Content-Type-Options "nosniff"
+    X-Frame-Options "DENY"
+    Referrer-Policy "strict-origin-when-cross-origin"
+  }
+
+  reverse_proxy n8n:5678
+}
